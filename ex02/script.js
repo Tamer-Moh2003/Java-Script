@@ -1,4 +1,3 @@
-
 const title = document.getElementById("title");
 const message = document.querySelector("#message");
 const button = document.getElementById("changeButton");
