@@ -1,0 +1,10 @@
+const name="Tamer";
+let age=23;
+let Code=true;
+console.log("Welcome"+name+"Khatatbeh");
+console.log("My"+age);
+age++;
+console.log("Age:"+age);
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof Code);

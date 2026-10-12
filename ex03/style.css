@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 40px;
+}
+.counter-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+#count {
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#increment {
+    background-color: green;
+    color: white;
+}
+#decrement {
+    background-color: red;
+    color: white;
+}
+#reset {
+    background-color: #dddddd;
+    color: black;
+}

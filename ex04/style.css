@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: #16834a;
+    color: white;
+}
+
+#taskList {
+    padding-left: 25px;
+}
+
+#taskList li {
+    margin: 12px 0;
+    padding: 10px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+}
+
+.task-text {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-button {
+    float: right;
+    margin-left: 10px;
+    background-color: #dc2626;
+    color: white;
+}
